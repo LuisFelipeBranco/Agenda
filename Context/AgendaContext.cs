@@ -17,4 +17,4 @@ namespace API.Context
         public DbSet<Contato> Contatos {get; set;}   
 
     }
-}
+} 

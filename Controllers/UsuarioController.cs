@@ -23,13 +23,13 @@ namespace API.Controllers
 
         }
 
-        [HttpGet("TESTE")]
-        public IActionResult teste(){
-          var obj = new {teste = "TESTE"};
+        // [HttpGet("TESTE")]
+        // public IActionResult teste(){
+        //   var obj = new {teste = "TESTE"};
           
-          return Ok(obj);
+        //   return Ok(obj);
 
-        }
+        // }
 
         [HttpGet("Apresentar/{nome}/{sobrenome}")]
         public IActionResult Apresentar(string nome, string sobrenome){
